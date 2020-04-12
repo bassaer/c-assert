@@ -10,4 +10,4 @@ build: ../lib/util.o main.o
 	gcc -o $(TARGET) $(CFLAGS) $^
 
 clean:
-	rm -rf *.o $(TARGET)
+	rm -rf *.o *.bin
